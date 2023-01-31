@@ -1,24 +1,149 @@
-/*comment*/
-body {}
 
 
+/*---------fonts-----*/
+body {
+    font-family: 'Roboto' sans-serif;
+}
+/*---------text no point-----*/
+.link {
+    text-decoration: none;
+ }
+ 
+ .list {
+     list-style: none;
+ }
+/*-----------header------------*/
+
+.header {
+    background-color: #FFFFFF;
+}
+
+.header-item:active {
+color: #404BBF;
+}
+
+.header-item:focus {
+    color: #404BBF;
+}
+
+.header-item:hover {
+    color: #404BBF;
+}
+.header-link {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
 
 
+.header-mail { 
+    font-family: 'Roboto'sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
 
-/* Button */
-.order {
-    
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 16px 32px;
-    gap: 10px;
-    
-    position: absolute;
-    width: 169px;
-    height: 56px;
-    left: 636px;
-    top: 428px;
-    background: #4D5AE5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;}
+}
+
+.header-mail:focus {
+    color: #404BBF;
+}
+
+.header-mail:hover {
+    color: #404BBF;
+}
+.header-tel {
+    font-family: 'Roboto'sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+
+.header-tel:focus {
+    color: #404BBF;
+}
+
+.header-tel:hover{
+    color: #404BBF;
+}
+
+/*------------hero-----------*/
+.hero {
+    font-family: 'Roboto'sans-serif;
+font-weight: 700;
+font-size: 56px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.02em;
+}
+
+.button {
+    cursor: pointer
+}    
+.button:focus {
+    color: #404BBF;
+
+}
+
+.button:active {
+    color: #404BBF;
+
+}
+.button:hover {
+    color: #404BBF;
+
+}
+
+.feature {
+    font-family: 'Roboto'sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+
+}
+.feature-text {
+    font-family: 'Roboto'sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+}
+
+.capital {
+    font-family: 'Roboto'sans-serif;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.02em;
+}
+.header {
+}
+
+/*-------ourteam------*/
+.team {
+    background-color: #F4F4FD;
+}
+
+/*--------button-portfolio------*/
+
+.button-portfolio {
+    cursor: pointer
+}
+
+.button-portfolio:hover {
+    color: #404BBF;
+
+}
+
+.button-portfolio:focus {
+    color: #404BBF;
+}
+.button-portfolio:active {
+    color: #404BBF;
+}
