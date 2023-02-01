@@ -1,8 +1,15 @@
-
-
+:root {
+    --primary-text-color: #2E2F42;
+    --background-color: #FFFFFF;
+}
 /*---------fonts-----*/
-body {
-    font-family: 'Roboto' sans-serif;
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        color: var(--primary-text-color);
+        background-color: var(--primary-bg-color);
+        
 }
 /*---------text no point-----*/
 .link {
@@ -30,7 +37,7 @@ color: #404BBF;
     color: #404BBF;
 }
 .header-link {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -40,7 +47,7 @@ letter-spacing: 0.02em;
 
 
 .header-mail { 
-    font-family: 'Roboto'sans-serif;
+    font-family: 'Roboto',sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -56,7 +63,7 @@ line-height: 24px;
     color: #404BBF;
 }
 .header-tel {
-    font-family: 'Roboto'sans-serif;
+    font-family: 'Roboto',sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -73,7 +80,7 @@ line-height: 24px;
 
 /*------------hero-----------*/
 .hero {
-    font-family: 'Roboto'sans-serif;
+    font-family: 'Roboto',sans-serif;
 font-weight: 700;
 font-size: 56px;
 line-height: 60px;
@@ -84,13 +91,20 @@ letter-spacing: 0.02em;
 .button {
     cursor: pointer
 }    
-.button:focus {
-    color: #404BBF;
+.button {
+    font-family: inherit;
+width: 169px;
+height: 56px;
+top: 428px;
+background: #4D5AE5;
+
 
 }
-
-.button:active {
+.button:focus {
     color: #404BBF;
+}
+.button:active {
+    background-color: #404BBF;
 
 }
 .button:hover {
@@ -99,7 +113,7 @@ letter-spacing: 0.02em;
 }
 
 .feature {
-    font-family: 'Roboto'sans-serif;
+    font-family: 'Roboto',sans-serif;
 font-weight: 500;
 font-size: 20px;
 line-height: 24px;
@@ -107,7 +121,7 @@ letter-spacing: 0.02em;
 
 }
 .feature-text {
-    font-family: 'Roboto'sans-serif;
+    font-family: 'Roboto',sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
@@ -115,7 +129,7 @@ letter-spacing: 0.02em;
 }
 
 .capital {
-    font-family: 'Roboto'sans-serif;
+    font-family: 'Roboto',sans-serif;
 font-weight: 700;
 font-size: 36px;
 line-height: 40px;
@@ -134,16 +148,108 @@ letter-spacing: 0.02em;
 
 .button-portfolio {
     cursor: pointer
+    
+}
+
+.button-portfolio {
+    width:69px;
+    height: 48px; 
+    background-color: #F4F4FD;
+
 }
 
 .button-portfolio:hover {
-    color: #404BBF;
+    width:69px;
+    height: 48px; 
+    background: #404BBF;
 
 }
-
 .button-portfolio:focus {
     color: #404BBF;
 }
 .button-portfolio:active {
     color: #404BBF;
+}
+
+
+.fon-imag {
+    background-color: #FFFFFF;
+    width: 264px;
+    height: 380px;
+}
+.logo-web {
+   color: #4D5AE5;
+   font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+letter-spacing: 0.03em;
+text-transform: uppercase
+}
+.header-logo {
+    font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+/* NAVY BLUE */
+
+color: #2E2F42;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+    }
+    
+    .footer-logo {
+ font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+color: #F4F4FD;
+    }
+
+.foot-web {
+    font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+
+.footer {
+    background-color: #2E2F42;
+    width: 1440px;
+    height: 310px;
+}
+.fot-wi {
+    width: 264px;
+height: 110px;
+left: 156px;
+top: 2380px;
+
+}
+
+.footer-text
+{
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #E7E9FC;
 }
