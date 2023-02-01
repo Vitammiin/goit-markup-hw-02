@@ -25,20 +25,13 @@
     background-color: #FFFFFF;
 }
 
-.header-item:active {
-color: #404BBF;
-}
 
-.header-item:focus {
-    color: #404BBF;
-}
-
+.header-item:focus,
 .header-item:hover {
     color: #404BBF;
 }
+
 .header-link {
-    font-family: 'Roboto', sans-serif;
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -47,11 +40,8 @@ letter-spacing: 0.02em;
 
 
 .header-mail { 
-    font-family: 'Roboto',sans-serif;
-font-style: normal;
-font-weight: 400;
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
 
 }
 
@@ -63,11 +53,8 @@ line-height: 24px;
     color: #404BBF;
 }
 .header-tel {
-    font-family: 'Roboto',sans-serif;
-font-style: normal;
-font-weight: 400;
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
 }
 
 .header-tel:focus {
@@ -89,22 +76,30 @@ letter-spacing: 0.02em;
 }
 
 .button {
-    cursor: pointer
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+
 }    
 .button {
     font-family: inherit;
-width: 169px;
-height: 56px;
-top: 428px;
 background: #4D5AE5;
+font-family: 'Roboto';
+font-size: 16px;
+line-height: 1.5;
 
 
 }
 .button:focus {
-    color: #404BBF;
+   
+    background-color: #404BBF;
+
 }
 .button:active {
     background-color: #404BBF;
+
 
 }
 .button:hover {
@@ -112,28 +107,24 @@ background: #4D5AE5;
 
 }
 
-.feature {
-    font-family: 'Roboto',sans-serif;
-font-weight: 500;
+.feature { 
 font-size: 20px;
-line-height: 24px;
+line-height: 1.2;
 letter-spacing: 0.02em;
+color: #2E2F42;
 
 }
 .feature-text {
-    font-family: 'Roboto',sans-serif;
-font-weight: 400;
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
 letter-spacing: 0.02em;
+color: #434455
+;
 }
 
 .capital {
-    font-family: 'Roboto',sans-serif;
-font-weight: 700;
 font-size: 36px;
-line-height: 40px;
-text-align: center;
+line-height: 1.11;
 letter-spacing: 0.02em;
 }
 .header {
@@ -152,24 +143,26 @@ letter-spacing: 0.02em;
 }
 
 .button-portfolio {
-    width:69px;
-    height: 48px; 
+    font-family: 'Roboto';
+
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+   font-family: inherit; 
     background-color: #F4F4FD;
+    color: #4D5AE5;
 
 }
 
 .button-portfolio:hover {
-    width:69px;
-    height: 48px; 
+ 
     background: #404BBF;
 
 }
 .button-portfolio:focus {
     color: #404BBF;
 }
-.button-portfolio:active {
-    color: #404BBF;
-}
+
 
 
 .fon-imag {
@@ -190,15 +183,12 @@ text-transform: uppercase
     font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
-line-height: 1.33;
-align-items: center;
+line-height: 1.33; 
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
-/* NAVY BLUE */
-
 color: #2E2F42;
 }
+
 
 .visually-hidden {
     position: absolute;
@@ -215,27 +205,20 @@ color: #2E2F42;
     
     .footer-logo {
  font-family: 'Raleway', sans-serif;
-font-weight: 800;
 font-size: 18px;
 line-height: 1.16;
 letter-spacing: 0.03em;
 color: #F4F4FD;
+text-transform: uppercase;
     }
 
 .foot-web {
-    font-family: 'Raleway';
-font-weight: 800;
-font-size: 18px;
-line-height: 1.16;
-letter-spacing: 0.03em;
-text-transform: uppercase;
 color: #4D5AE5;
 }
 
 .footer {
     background-color: #2E2F42;
-    width: 1440px;
-    height: 310px;
+
 }
 .fot-wi {
     width: 264px;
@@ -247,9 +230,36 @@ top: 2380px;
 
 .footer-text
 {
-font-family: 'Roboto', sans-serif;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #E7E9FC;
 }
+
+.header-link {
+    color: #2E2F42;
+}
+ .header-mail {
+    color: #434455
+    ;
+ }
+ .header-tel {
+    color: #434455
+    ;
+ }
+
+ .hero {
+    color: #FFFFFF
+    ;
+ }
+ .section {
+    background-color: #2E2F42;
+ }
+
+ .adress {
+    font-style: normal;
+ }
+
+ .feature-li {
+    background-color: #FFFFFF;
+ }
