@@ -42,6 +42,7 @@ letter-spacing: 0.02em;
 .header-mail { 
 font-size: 16px;
 line-height: 1.5;
+letter-spacing: 0.02em;
 
 }
 
@@ -67,12 +68,12 @@ line-height: 1.5;
 
 /*------------hero-----------*/
 .hero {
-    font-family: 'Roboto',sans-serif;
-font-weight: 700;
 font-size: 56px;
-line-height: 60px;
+line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
+text-align: center;
+
 }
 
 .button {
@@ -81,6 +82,7 @@ letter-spacing: 0.02em;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+    font-weight: 500;
 
 }    
 .button {
@@ -96,6 +98,8 @@ line-height: 1.5;
    
     background-color: #404BBF;
 
+    color: #FFFFFF
+    ;
 }
 .button:active {
     background-color: #404BBF;
@@ -103,7 +107,8 @@ line-height: 1.5;
 
 }
 .button:hover {
-    color: #404BBF;
+    background-color: #404BBF;
+    color: #FFFFFF;
 
 }
 
@@ -112,6 +117,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
+font-weight: 500;
 
 }
 .feature-text {
@@ -126,6 +132,8 @@ color: #434455
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
+text-align: center;
+
 }
 .header {
 }
@@ -157,10 +165,14 @@ letter-spacing: 0.04em;
 .button-portfolio:hover {
  
     background: #404BBF;
+    color: #FFFFFF
+    ;
 
 }
 .button-portfolio:focus {
-    color: #404BBF;
+    background-color: #404BBF;
+    color: #FFFFFF
+    ;
 }
 
 
@@ -239,6 +251,18 @@ color: #E7E9FC;
 .header-link {
     color: #2E2F42;
 }
+
+.header-link:hover {
+
+    color: #404BBF;
+}
+
+.header-link:focus {
+
+    color: #404BBF;
+}
+
+
  .header-mail {
     color: #434455
     ;
